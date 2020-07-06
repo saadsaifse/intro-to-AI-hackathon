@@ -77,9 +77,6 @@ the possibility of simulating them by machines.
 Turing’s most prominent contribution to AI is his
 imitation game, which later became known as the
 **Turing test.**
-![Alan Turing](https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg)
-source: Wikipedia
-
 
 A human interrogator interacts with two players, A and B,
 by exchanging written messages (in a chat).
