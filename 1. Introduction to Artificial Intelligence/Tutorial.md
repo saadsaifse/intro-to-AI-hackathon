@@ -4,7 +4,7 @@
 Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 ```
 
-# Overview
+## Overview
 
 ```
 ● What is AI? - 5 minutes
@@ -16,13 +16,13 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 ● Tasks - 10-15 minutes
 ```
 
-# What is Artificial Intelligence?
+## What is Artificial Intelligence?
 
 Before we begin, take a piece of paper or open a document on your
 computer and try to write down key words that define AI,
 by viewing [this video by the BBC](https://www.bbc.com/news/av/technology-34224406/what-is-artificial-intelligence).
 
-# How should we define AI?
+## How should we define AI?
 
 _“Artificial intelligence (AI), the ability of a digital computer or computer-controlled
 robot to perform tasks commonly associated with intelligent beings.”
@@ -39,7 +39,7 @@ What characteristics do intelligent beings (such as humans) have?
 !["AI is" image](./images/AI_is.svg "source: Online learning and distance education resources")
 
 
-# Related Fields
+## Related Fields
 
 **Computer Science** - A study of computers, science, and programming stuff
 
@@ -53,20 +53,20 @@ more and more experience or data.
 **Data Science** - Science of extracting knowledge from data
 
 
-# Related Fields - Taxonomy!
+## Related Fields - Taxonomy!
 
 Click on the link and take the quiz -
 
 https://forms.gle/sAJwjmjGT1dg9qH
 
 
-# History of Artificial Intelligence
+## History of Artificial Intelligence
 
 ![History part I](./images/History_I.svg)
 
 ![History part II](./images/History_II.svg)
 
-# Alan Turing
+## Alan Turing
 
 “ _the father of theoretical computer science and artificial intelligence_ ”
 
@@ -78,68 +78,55 @@ Turing’s most prominent contribution to AI is his
 imitation game, which later became known as the
 **Turing test.**
 
+### The Turing Test
+
+<p align="center">
+  <img src="https://course.elementsofai.com/static/1_3_turing-test-76dd06f564bd7a92c4383db614e884ee.svg" alt="Turing test"/>
+</p>
+
 A human interrogator interacts with two players, A and B,
 by exchanging written messages (in a chat).
 If the interrogator cannot determine which player,
 A or B, is a computer and which is a human,
 the computer is said to pass the test.
 
-Click on the link to see how a computer program called Eugene Goostman, which
-simulates a 13-year-old Ukrainian boy, is said to have passed the Turing test at an
-event organised by the University of Reading.
+Click on the [link](https://www.bbc.com/news/technology-27762088) to see how a computer program called Eugene Goostman, which simulates a 13-year-old Ukrainian boy, is said to have passed the Turing test at an event organised by the University of Reading.
 
-# The Turing Test
-
-```
-source: Elements of AI
-```
-```
-A Interrogator B
-```
-
-# Applications of Artificial Intelligence
+## Applications of Artificial Intelligence
 
 
-# Media and Internet
+### Media and Internet
 
 ● Image/Video classification
 
-● Speech recognition and real time
+● Speech recognition and real time translation
 
-```
-translation
-```
 ● Content-based search
 
 
-# AI can be used to generate or alter visual content
+#### AI can be used to generate or alter visual content
 
-1. Style transfer, which adapts a picture to make it look like painted by Vincent
-    van Gogh
+1. Style transfer, which adapts a picture to make it look like painted by Vincent van Gogh
 2. Computer-generated characters in motion pictures
-3. Animations, where the animated character replicates gestures made by real
-    human actors
+3. Animations, where the animated character replicates gestures made by real human actors
 
-! It will be easy to create natural looking fake videos of events and people
+_It will be easy to create natural looking fake videos of events and people_
 
 
-# Speech recognition
+### Speech recognition
 
-➔ Smart Speaker and Smart Home: Amazon Echo and Alexa, Google Home
+1. Smart Speaker and Smart Home: Amazon Echo and Alexa, Google Home
 and Microsoft Cortana
-➔ Mobile Device Applications: Apple’s Siri and Facebook’s speech recognition
+2. Mobile Device Applications: Apple’s Siri and Facebook’s speech recognition
 integrations.
 
 ```
-◆ help manage schedule, keep track of tasks, and set reminders
-◆ control apps and home devices: play music, buy things, turn on the TV, order food
+- help manage schedule, keep track of tasks, and set reminders
+- control apps and home devices: play music, buy things, turn on the TV, order food
+- analyze audio files and return transcribed speech
 ```
-### ◆ analyze audio files and return transcribed speech
 
-
-# Content recommendation is widely used today to
-
-# offer personalized content. Examples are:
+#### Content recommendation is widely used today to offer personalized content. Examples are:
 
 1. Facebook, Twitter, Instagram, other social media content
 2. Online advertisements and search engines
@@ -147,11 +134,11 @@ integrations.
 4. Movie recommendations on Netflix
 5. Online publishers
 
-! Be aware of possible implications: filter bubbles, echo-chambers, troll factories,
-fake news, and new forms of propaganda
+_Be aware of possible implications: filter bubbles, echo-chambers, troll factories,
+fake news, and new forms of propaganda_
 
 
-# Medicine
+### Medicine
 
 ● Cancer cell detection
 
@@ -160,31 +147,24 @@ fake news, and new forms of propaganda
 ● Drug discovery
 
 
-# Helping doctors to diagnose patients
+#### Helping doctors to diagnose patients
 
-Since there is plenty of good data available in these cases, algorithms are
-becoming just as good at diagnostics as the experts and can make a decision in a
-fraction of a second.
+Since there is plenty of good data available in these cases, algorithms are becoming just as good at diagnostics as the experts and can make a decision in a fraction of a second.
 
 
-# Developing drugs faster
+#### Developing drugs faster
 
-AI can help faster identify target proteins, discover drug candidates (compound
-that can interact with the identified target molecule), find suitable candidates for
-clinical trials, automate a large portion of the manual work and speed up the
-process.
+AI can help faster identify target proteins, discover drug candidates (compound that can interact with the identified target molecule), find suitable candidates for clinical trials, automate a large portion of the manual work and speed up the process.
 
 
-# Personalizing treatment through...
+#### Personalizing treatment through...
 
 1. going through personal record of the patient
 2. analysing enormous amounts of statistical data of all other patients
-3. predicting a patient’s probable response to all particular treatments, assessing
-    all possible risks and benefits
+3. predicting a patient’s probable response to all particular treatments, assessing all possible risks and benefits
 4. designing the best treatment plan, tailored specifically to the patient
 
-
-# Security and defence
+### Security and defence
 
 ● Face recognition
 
@@ -192,8 +172,7 @@ process.
 
 ● Cyber security
 
-
-# Face recognition
+##### Face recognition
 
 is already used in many customer, business, and government applications such as
 
@@ -201,14 +180,11 @@ is already used in many customer, business, and government applications such as
 2. automatic tagging on social media
 3. passport control
 
-# Video surveillance
+#### Video surveillance
 
-```
-is able to recognize humans, vehicles, objects and events. Through this it is also
-possible to classify mood, behaviour, and detect dangerous situations.
-```
+is able to recognize humans, vehicles, objects and events. Through this it is also possible to classify mood, behaviour, and detect dangerous situations.
 
-# Autonomous machines
+### Autonomous machines
 
 ● Pedestrian detection
 
@@ -219,27 +195,26 @@ possible to classify mood, behaviour, and detect dangerous situations.
 ● Routing
 
 
-## Self-driving cars require a combination of AI techniques of many kinds:
+#### Self-driving cars require a combination of AI techniques of many kinds:
 
-```
-➔ search and planning to find the most convenient route from A to B
-➔ computer vision to identify obstacles, lane, traffic signs, pedestrians
-➔ decision making under uncertainty to cope with the complex and dynamic environment.
-```
+1. search and planning to find the most convenient route from A to B
+2. computer vision to identify obstacles, lane, traffic signs, pedestrians
+3. decision making under uncertainty to cope with the complex and dynamic environment.
+
 _Very likely in the future machines will take care of the driving, while people will keep an eye
 on them._
 
 ```
 Each of these must work with flawless precision in order to avoid accidents!
 ```
-The same applies to other autonomous systems such as delivery robots, flying
-drones, and autonomous ships.
+
+The same applies to other autonomous systems such as delivery robots, flying drones, and autonomous ships.
 
 
-# Tasks
+## Tasks
 
 
-# Answer these 2 questions and send us an e-mail!
+### Answer these 2 questions and send us an e-mail!
 
 1. Choose which of the following are AI and which are not:
     a. Spreadsheet that calculates sums and other pre-defined functions on given data
@@ -255,7 +230,7 @@ f. Photo editing features such as brightness and contrast in applications such a
 2. Tell us, what an AI you would like to have, that would make your life better.
 
 
-# References
+## References
 
 ```
 ● Elements of AI, Helsinki University - https://course.elementsofai.com/
