@@ -18,17 +18,9 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 
 # What is Artificial Intelligence?
 
-
-```
 Before we begin, take a piece of paper or open a document on your
 computer and try to write down key words that define AI,
-by viewing this video by the BBC.
-```
-# What is AI?
-
-```
-source: Technology Networks
-```
+by viewing [this video by the BBC](https://www.bbc.com/news/av/technology-34224406/what-is-artificial-intelligence).
 
 # How should we define AI?
 
@@ -44,8 +36,7 @@ What characteristics do intelligent beings (such as humans) have?
 ● Discover meaning using common language
 ● Solve problems
 ```
-
-source: Online learning and distance education resources
+!["AI is" image](https://github.com/saadsaifse/intro-to-AI-hackathon/tree/develop/1.%20Introduction%20to%20Artificial%20Intelligence/images/AI_is.svg "source: Online learning and distance education resources")
 
 
 # Related Fields
@@ -71,77 +62,9 @@ https://forms.gle/sAJwjmjGT1dg9qH
 
 # History of Artificial Intelligence
 
+![History part I](https://github.com/saadsaifse/intro-to-AI-hackathon/tree/develop/1.%20Introduction%20to%20Artificial%20Intelligence/images/History_I.svg)
 
-# History of AI continued on next slide...
-
-```
-1956
-```
-```
-Artificial Intelligence
-American computer scientist John McCarthy organised the Dartmouth Conference, at
-which the term ‘Artificial Intelligence’ was first adopted
-1960’s
-```
-```
-More Research
-Researchers emphasized developing algorithms to solve mathematical problems
-and geometrical theorems. In the late 1960s, computer scientists worked on Machine
-Vision Learning and developing machine learning in robots. WABOT-1, the first
-‘intelligent’ humanoid robot, was built in Japan in 1972.
-```
-```
-WW-II (1939 - 45)
-```
-```
-Early Days
-Alan Turing and his team created the Bombe machine that was used to decipher Enigma’s
-messages
-1951
-```
-```
-AI Research Getting Serious
-A machine known as Ferranti Mark 1 successfully used an algorithm to master
-checkers. Subsequently, Newell and Simon developed General Problem Solver algorithm
-to solve mathematical problems. LISP Language for Machine Learning
-```
-
-# History of AI continued...
-
-```
-Early
-2000s
-```
-```
-Continued Research Despite Struggles
-Some AI funding dried up when the dotcom bubble burst in the early 2000s. Yet machine
-learning continued its march, largely thanks to improvements in computer hardware.
-Late 2000s till now
-```
-```
-More Research
-Exponential gains in computer processing power and storage ability allowed companies
-to store vast, and crunch, vast quantities of data for the first time. In the past 15 years,
-Amazon, Google, Baidu, and others leveraged machine learning to their huge commercial
-advantage.These companies have continued to work on computer vision, natural language
-processing, and a whole host of other AI applications.
-```
-```
-1970 - mid 1990s
-```
-```
-AI Winters
-Computers were not well-developed enough to process such a large magnitude of data.
-Governments and corporations were losing faith in AI. Therefore, from the mid 1970s to
-the mid 1990s, computer scientists dealt with an acute shortage of funding for AI research.
-1997
-```
-```
-AI Research Getting Serious
-In the late 1990s, American corporations once again became interested in AI. In 1997, IBM’s
-Deep Blue defeated became the first computer to beat a reigning world chess
-champion, Garry Kasparov.
-```
+![History part II](https://github.com/saadsaifse/intro-to-AI-hackathon/tree/develop/1.%20Introduction%20to%20Artificial%20Intelligence/images/History_II.svg)
 
 # Alan Turing
 
@@ -154,6 +77,7 @@ the possibility of simulating them by machines.
 Turing’s most prominent contribution to AI is his
 imitation game, which later became known as the
 **Turing test.**
+![Alan Turing](https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg)
 source: Wikipedia
 
 
