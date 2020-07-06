@@ -16,11 +16,16 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 ● Tasks - 10-15 minutes
 ```
 
+---
+
 ## What is Artificial Intelligence?
 
 Before we begin, take a piece of paper or open a document on your
 computer and try to write down key words that define AI,
 by viewing [this video by the BBC](https://www.bbc.com/news/av/technology-34224406/what-is-artificial-intelligence).
+
+---
+
 
 ## How should we define AI?
 
@@ -38,6 +43,7 @@ What characteristics do intelligent beings (such as humans) have?
 ```
 !["AI is" image](./images/AI_is.svg "source: Online learning and distance education resources")
 
+---
 
 ## Related Fields
 
@@ -58,6 +64,8 @@ more and more experience or data.
 Click on the link and take the quiz -
 
 https://forms.gle/sAJwjmjGT1dg9qH
+
+---
 
 
 ## History of Artificial Intelligence
@@ -92,6 +100,8 @@ the computer is said to pass the test.
 
 Click on the [link](https://www.bbc.com/news/technology-27762088) to see how a computer program called Eugene Goostman, which simulates a 13-year-old Ukrainian boy, is said to have passed the Turing test at an event organised by the University of Reading.
 
+---
+
 ## Applications of Artificial Intelligence
 
 
@@ -112,19 +122,19 @@ Click on the [link](https://www.bbc.com/news/technology-27762088) to see how a c
 
 _It will be easy to create natural looking fake videos of events and people_
 
+---
 
 ### Speech recognition
 
-1. Smart Speaker and Smart Home: Amazon Echo and Alexa, Google Home
-and Microsoft Cortana
-2. Mobile Device Applications: Apple’s Siri and Facebook’s speech recognition
-integrations.
+Examples here are:
+1. Smart Speaker and Smart Home: Amazon Echo and Alexa, Google Home and Microsoft Cortana
+2. Mobile Device Applications: Apple’s Siri and Facebook’s speech recognition integrations.
 
-```
+They can be used for various purposes:
 - help manage schedule, keep track of tasks, and set reminders
 - control apps and home devices: play music, buy things, turn on the TV, order food
 - analyze audio files and return transcribed speech
-```
+
 
 #### Content recommendation is widely used today to offer personalized content. Examples are:
 
@@ -137,6 +147,7 @@ integrations.
 _Be aware of possible implications: filter bubbles, echo-chambers, troll factories,
 fake news, and new forms of propaganda_
 
+---
 
 ### Medicine
 
@@ -164,6 +175,8 @@ AI can help faster identify target proteins, discover drug candidates (compound 
 3. predicting a patient’s probable response to all particular treatments, assessing all possible risks and benefits
 4. designing the best treatment plan, tailored specifically to the patient
 
+---
+
 ### Security and defence
 
 ● Face recognition
@@ -172,7 +185,8 @@ AI can help faster identify target proteins, discover drug candidates (compound 
 
 ● Cyber security
 
-##### Face recognition
+
+#### Face recognition
 
 is already used in many customer, business, and government applications such as
 
@@ -180,9 +194,12 @@ is already used in many customer, business, and government applications such as
 2. automatic tagging on social media
 3. passport control
 
+
 #### Video surveillance
 
 is able to recognize humans, vehicles, objects and events. Through this it is also possible to classify mood, behaviour, and detect dangerous situations.
+
+---
 
 ### Autonomous machines
 
@@ -210,9 +227,9 @@ Each of these must work with flawless precision in order to avoid accidents!
 
 The same applies to other autonomous systems such as delivery robots, flying drones, and autonomous ships.
 
+---
 
 ## Tasks
-
 
 ### Answer these 2 questions and send us an e-mail!
 
@@ -229,6 +246,7 @@ f. Photo editing features such as brightness and contrast in applications such a
        different art styles (impressionist, cubist, ...)
 2. Tell us, what an AI you would like to have, that would make your life better.
 
+---
 
 ## References
 
