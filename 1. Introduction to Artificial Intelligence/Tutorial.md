@@ -36,7 +36,7 @@ What characteristics do intelligent beings (such as humans) have?
 ● Discover meaning using common language
 ● Solve problems
 ```
-!["AI is" image](https://github.com/saadsaifse/intro-to-AI-hackathon/tree/develop/1.%20Introduction%20to%20Artificial%20Intelligence/images/AI_is.svg "source: Online learning and distance education resources")
+!["AI is" image](https://github.com/saadsaifse/intro-to-AI-hackathon/tree/develop/1.%20Introduction%20to%20Artificial%20Intelligence/images/AI_is.png "source: Online learning and distance education resources")
 
 
 # Related Fields
@@ -62,9 +62,9 @@ https://forms.gle/sAJwjmjGT1dg9qH
 
 # History of Artificial Intelligence
 
-![History part I](https://github.com/saadsaifse/intro-to-AI-hackathon/tree/develop/1.%20Introduction%20to%20Artificial%20Intelligence/images/History_I.svg)
+![History part I](https://github.com/saadsaifse/intro-to-AI-hackathon/tree/develop/1.%20Introduction%20to%20Artificial%20Intelligence/images/History_I.png)
 
-![History part II](https://github.com/saadsaifse/intro-to-AI-hackathon/tree/develop/1.%20Introduction%20to%20Artificial%20Intelligence/images/History_II.svg)
+![History part II](https://github.com/saadsaifse/intro-to-AI-hackathon/tree/develop/1.%20Introduction%20to%20Artificial%20Intelligence/images/History_II.png)
 
 # Alan Turing
 
