@@ -24,10 +24,13 @@ After completing this tutorial, readers will
 - [Introduction to image recognition and selected tools](#introduction-to-image-recognition-and-selected-tools) - 5 minutes
 - Working of Convolutional Neural Network (CNN) for Image Classification - 10 minutes
 - Setting-up the development environment - 5 minutes
-- Importing and preparing the data - 5 minutes
+- Explore the example data - 5 minutes
+- Build a small convnet from scratch to solve our classification problem - 10 mins
+- Evaluate training and validation accuracy - 5 mins
+<!-- - Importing and preparing the data - 5 minutes
 - Compiling and training the model - 10 minutes
 - Visualizing the training results - 5 minutes
-- Using the model to predict classes for new images - 5 minutes
+- Using the model to predict classes for new images - 5 minutes -->
 - Tasks - 10-15 minutes
 
 ---
@@ -163,5 +166,17 @@ Figure 6 illustrates the end-to-end structure of a convolutional neural network.
 
 Figure 6. The CNN shown here contains two convolution modules (convolution + ReLU + pooling) for feature extraction, and two fully connected layers for classification. Other CNNs may contain larger or smaller numbers of convolutional modules, and greater or fewer fully connected layers. Engineers often experiment to figure out the configuration that produces the best results for their model.
 
+
+
+
+
 ## Setting-up the development environment
 Make a video/screen-recording of setting up a mac and windows and run the basic code example
+
+## Cat vs. Dog Image Classification
+
+### Explore the example data
+
+Cats and Dogs Dataset: https://www.kaggle.com/c/dogs-vs-cats/data
+
+Tutorial link: https://colab.research.google.com/drive/1ixqbOLgEw8GLQxBK2RjH8L_cCQAG-96u?usp=sharing
