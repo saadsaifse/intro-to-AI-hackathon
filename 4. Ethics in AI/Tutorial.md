@@ -62,11 +62,12 @@ This cycle presented in the figure presents how each bias effect the other in a 
 
 AI "faking" technologies make what once could have been regarded as reliable evidence into unreliable evidence. This is already happening to digital photos, sound recordings, and videos.
 
+```
 Examples: 
-* People can be put in places they never visited by using photoshop.
-* Change the way one looks by 'slimming' them down in before and after pictures advertising a  diet pill.
-
-Check out these "Fake" AI tools:
+● People can be put in places they never visited by using photoshop.
+● AI can change the way one looks by 'slimming' them down in before and after pictures advertising a  diet pill.
+```
+**Check out these "Fake" AI tools:**
 
 [Face2Face](https://www.youtube.com/watch?v=ohmajJTcpNk) - a system capable of identifying the facial expressions of a person and putting them on another person’s face in a Youtube video.  
 [Lyrebird](https://www.descript.com/overdub?lyrebird=true) - a tool for automatic imitation of a person’s voice from a few minutes of sample recording.
@@ -76,7 +77,19 @@ Check out these "Fake" AI tools:
 
 ## Privacy & Surveillance
 
-As technology has advanced, the way in which privacy is protected and violated has changed with it. AI leads new kinds of threats to our privacy, which may be harder to avoid. 
+As technology has advanced, the way in which privacy is protected and violated has changed with it. AI leads new kinds of threats to our privacy, which may be harder to avoid. AI can conduct facial analysis, skin texture analysis, speech recognition and emotion recognition. All without permission or cooperation from the individual.
+
+**An example can be using data analysis to identify individuals**  
+
+In China the belief is that surveillance with Facial Recognition is essential to law enforcement and public safety. Even in the United States facial recognition for law enforcement is also routinely used everywhere, except in its tech capital -  San Francisco.
+
+![alttext](https://media1.s-nbcnews.com/j/newscms/2019_19/2847376/190506-face-recognition-small-crimes-main-kh_af209030008a39ab916bb89809b55c04.fit-2000w.jpg)
+
+**Read the following articles, and write which approach you would endorse if you were the mayor of the city you currently live in and try to explain why.**
+
+* [One Month, 500,000 Face Scans: How China Is Using A.I. to Profile a Minority](https://www.nytimes.com/2019/04/14/technology/china-surveillance-artificial-intelligence-racial-profiling.html)
+* [How facial recognition became a routine policing tool in America](https://www.nbcnews.com/news/us-news/how-facial-recognition-became-routine-policing-tool-america-n1004251)
+* [San Francisco’s facial recognition technology ban, explained](https://www.vox.com/recode/2019/5/14/18623897/san-francisco-facial-recognition-ban-explained)
 
 ---
 
