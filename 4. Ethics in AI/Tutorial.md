@@ -60,13 +60,13 @@ This cycle presented in the figure presents how each bias effect the other in a 
 
 ## Fake AI
 
-AI “faking” technologies make what once could have been regarded as reliable evidence into unreliable evidence. This is already happening to digital photos, sound recordings, and videos.
+AI "faking" technologies make what once could have been regarded as reliable evidence into unreliable evidence. This is already happening to digital photos, sound recordings, and videos.
 
 Examples: 
 * People can be put in places they never visited by using photoshop.
 * Change the way one looks by 'slimming' them down in before and after pictures advertising a  diet pill.
 
-Check out these AI tools that can fabricate facial expressions and imitate one's voice.
+Check out these "Fake" AI tools:
 
 [Face2Face](https://www.youtube.com/watch?v=ohmajJTcpNk) - a system capable of identifying the facial expressions of a person and putting them on another person’s face in a Youtube video.  
 [Lyrebird](https://www.descript.com/overdub?lyrebird=true) - a tool for automatic imitation of a person’s voice from a few minutes of sample recording.
@@ -76,7 +76,7 @@ Check out these AI tools that can fabricate facial expressions and imitate one's
 
 ## Privacy & Surveillance
 
-
+As technology has advanced, the way in which privacy is protected and violated has changed with it. AI leads new kinds of threats to our privacy, which may be harder to avoid. 
 
 ---
 
