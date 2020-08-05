@@ -8,7 +8,7 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 
 ### Objective
 
-During this tutorial, readers will explore the impact of AI in our future society.
+During this tutorial, readers will explore the current impact of AI in our society as well as future implications.
 
 ```
 ● Ethics Definition - 2 minutes
