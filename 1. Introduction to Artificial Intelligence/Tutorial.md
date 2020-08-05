@@ -241,7 +241,7 @@ The same applies to other autonomous systems such as delivery robots, flying dro
        listening behavior
     e. Big data storage solutions that can store huge amounts of data (such as images or video) and
        stream them to many users at the same time
-f. Photo editing features such as brightness and contrast in applications such as Photoshop
+    f. Photo editing features such as brightness and contrast in applications such as Photoshop
     g. Style transfer filters in applications such as Prisma that take a photo and transform it into
        different art styles (impressionist, cubist, ...)
 2. Tell us, what an AI you would like to have, that would make your life better.
