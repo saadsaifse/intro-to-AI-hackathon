@@ -12,11 +12,10 @@ During this tutorial, readers will explore the current impact of AI in our socie
 
 ```
 ● Ethics Definition - 2 minutes
-● The ethical dilemma of self-driving cars by Patrick Lin  - 8 minutes
+● The ethical dilemma of self-driving cars by Patrick Lin  - 10 minutes
 ● AI Bias - 5 minutes
 ● Fake AI - 5 minutes
-● Privacy & Surveillance - 5 minutes
-● Human-AI Interaction - 5 minutes
+● Privacy & Surveillance - 8 minutes
 ● AI and Employment - 5 minutes
 ● Task - 10-15 minutes
 ```
@@ -79,7 +78,7 @@ Examples:
 
 As technology has advanced, the way in which privacy is protected and violated has changed with it. AI leads new kinds of threats to our privacy, which may be harder to avoid. AI can conduct facial analysis, skin texture analysis, speech recognition and emotion recognition. All without permission or cooperation from the individual.
 
-**An example can be using data analysis to identify individuals**  
+**An example can be using data analysis to identify individuals:**  
 
 In China the belief is that surveillance with Facial Recognition is essential to law enforcement and public safety. Even in the United States facial recognition for law enforcement is also routinely used everywhere, except in its tech capital -  San Francisco.
 
@@ -93,14 +92,51 @@ In China the belief is that surveillance with Facial Recognition is essential to
 
 ---
 
+## AI and Employment 
+
+Since the mid 20th century, technological development has lead to a period of extraordinary progress in automation. It seems clear that AI and robotics will lead to significant gains in productivity. Productivity gains through automation typically mean that fewer humans are required for the same output. With AI and robotics, there is even less need for many kinds of dull, repetitive work.
+
+A study by Carl Benedikt Frey and Michael Osborne (2013) of Oxford University used a machine-learning algorithm to assess how easily 702 different kinds of job in America could be automated. They found that 47% of jobs could be done by machines over the next decade or two.
+
+The following 2 charts were published in 2018 by the OECD in a study (based on the study by Carl Benedikt Frey and Michael Osborne in 2013) that estimates the risk of automation for individual jobs based on 32 OECD countries that have participated in the Survey of Adult Skills (PIAAC).
+
+![alttext](https://www.economist.com/img/b/1280/969/90/sites/default/files/20180428_WOC328.png)
+
+For the overall sample of 32 countries, the average job is estimated to have 48% probability of being automated. However, there is a large variation in the degree of automatability across countries. For example, jobs in Slovakia are twice as vulnerable to be automated compared to those in Norway and in Greece and Lithuania the average worker has 57% chance of being automated.
+
+![alttext](https://www.economist.com/img/b/1280/915/90/sites/default/files/images/2018/04/blogs/graphic-detail/20180428_woc318_0.png)
+
+The job types that have the highest probability of becoming automated mostly do not require specific skills or training: food preparation assistants, construction workers, driver, cleaners and helpers. The industries with low average probability of being automated are mainly part of the service sector - education, health care, politics etc.
+
+---
+
+## Task - Implications of AI
+
+Write an essay (minimum 500 words, maximum 800 words) on one of the following topics presented in this tutorial. 
+You can use articles to give examples and support your thoughts. 
+Please send the essay to egrinber@uni-muenster.de with your name written on the first page.
+
+```
+The topics:
+
+● AI Bias 
+● Fake AI 
+● Privacy & Surveillance
+● AI and Employment 
+```
+
+---
+
 ## References
 
 ```
+● A study finds nearly half of jobs are vulnerable to automation. (2018). Retrieved 7 August 2020, from https://www.economist.com/graphic-detail/2018/04/24/a-study-finds-nearly-half-of-jobs-are-vulnerable-to-automation
 ● Bossmann, J. (2016). Top 9 ethical issues in artificial intelligence. Retrieved 5 August 2020, from https://www.weforum.org/agenda/2016/10/top-10-ethical-issues-in-artificial-intelligence/
-● Elements of AI, Helsinki University - https://course.elementsofai.com/
+● Elements of AI, Helsinki University - https://course.elementsofai.com
 ● Ethics | Definition of Ethics by Oxford Dictionary on Lexico.com also meaning of Ethics. Retrieved 5 August 2020, from https://www.lexico.com/definition/ethics
 ● J. Bradley, A. (2020). 4 Stages of Ethical AI: Algorithmic Bias is Not the Problem but Part of the Solution - Anthony Bradley. Retrieved 5 August 2020, from https://blogs.gartner.com/anthony_bradley/2020/01/15/4-stages-ethical-ai-algorithmic-bias-not-problem-part-solution/
 ● Nalini, B. (2019). The Hitchhiker’s Guide to AI Ethics. Retrieved 5 August 2020, from https://towardsdatascience.com/ethics-of-ai-a-comprehensive-primer-1bfd039124b0
+● Nedelkoska, L. and G. Quintini (2018), "Automation, skills use and training", OECD Social, Employment and Migration Working Papers, No. 202, OECD Publishing, Paris, https://doi.org/10.1787/2e2f4eea-en
 ● Merriam-Webster. (n.d.). Ethic. In Merriam-Webster.com dictionary. Retrieved August 5, 2020, from https://www.merriam-webster.com/dictionary/ethic
 ● Müller, Vincent C., "Ethics of Artificial Intelligence and Robotics", The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Edward N. Zalta (ed.), forthcoming URL = <https://plato.stanford.edu/archives/fall2020/entries/ethics-ai/>. 
 ```
