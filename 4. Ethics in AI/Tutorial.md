@@ -43,7 +43,7 @@ TedEd link: https://ed.ted.com/on/ZqB0pyBs
 
 ## AI Bias
 
-![alttext](https://blogs.gartner.com/anthony_bradley/files/2020/01/4-Stages-of-Ethical-AI.png)
+<img src="https://blogs.gartner.com/anthony_bradley/files/2020/01/4-Stages-of-Ethical-AI.png" width="500">
 
 In his article J. Bradley (2020) describes 4 stages relevant to AI bias; real world bias, data bias, algorithm bias and business bias.
 1. **Real world bias** involves actual bias in real world situations such as gender bias, name bias or beauty bias. 
@@ -82,7 +82,7 @@ As technology has advanced, the way in which privacy is protected and violated h
 
 In China the belief is that surveillance with Facial Recognition is essential to law enforcement and public safety. Even in the United States facial recognition for law enforcement is also routinely used everywhere, except in its tech capital -  San Francisco.
 
-![alttext](https://media1.s-nbcnews.com/j/newscms/2019_19/2847376/190506-face-recognition-small-crimes-main-kh_af209030008a39ab916bb89809b55c04.fit-2000w.jpg)
+<img src="https://media1.s-nbcnews.com/j/newscms/2019_19/2847376/190506-face-recognition-small-crimes-main-kh_af209030008a39ab916bb89809b55c04.fit-2000w.jpg" width="500">
 
 **Read the following articles, and write which approach you would endorse if you were the mayor of the city you currently live in and try to explain why.**
 
@@ -100,11 +100,11 @@ A study by Carl Benedikt Frey and Michael Osborne (2013) of Oxford University us
 
 The following 2 charts were published in 2018 by the OECD in a study (based on the study by Carl Benedikt Frey and Michael Osborne in 2013) that estimates the risk of automation for individual jobs based on 32 OECD countries that have participated in the Survey of Adult Skills (PIAAC).
 
-![alttext](https://www.economist.com/img/b/1280/969/90/sites/default/files/20180428_WOC328.png)
+<img src="https://www.economist.com/img/b/1280/969/90/sites/default/files/20180428_WOC328.png" width="500">
 
 For the overall sample of 32 countries, the average job is estimated to have 48% probability of being automated. However, there is a large variation in the degree of automatability across countries. For example, jobs in Slovakia are twice as vulnerable to be automated compared to those in Norway and in Greece and Lithuania the average worker has 57% chance of being automated.
 
-![alttext](https://www.economist.com/img/b/1280/915/90/sites/default/files/images/2018/04/blogs/graphic-detail/20180428_woc318_0.png)
+<img src="https://www.economist.com/img/b/1280/915/90/sites/default/files/images/2018/04/blogs/graphic-detail/20180428_woc318_0.png" width="500">
 
 The job types that have the highest probability of becoming automated mostly do not require specific skills or training: food preparation assistants, construction workers, driver, cleaners and helpers. The industries with low average probability of being automated are mainly part of the service sector - education, health care, politics etc.
 
