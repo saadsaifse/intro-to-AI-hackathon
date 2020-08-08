@@ -34,7 +34,7 @@ During this tutorial, readers will explore the current impact of AI in our socie
 
 ## The ethical dilemma of self-driving cars by Patrick Lin
 
-Patrick Lin is the director of the Ethics + Emerging Sciences Group, based at California Polytechnic State University, San Luis Obispo, where he is also a philosophy professor. In the TedEd link before you Professor Lin discusses the ethics of self-driving cars. 
+Patrick Lin is the director of the Ethics + Emerging Sciences Group, based at California Polytechnic State University, San Luis Obispo, where he is also a philosophy professor. In the TedEd link before you, Professor Lin discusses the ethics of self-driving cars. 
 
 <b>Watch</b> the video and <b>Think</b> while answering the questions, for more information you can <b>Dig Deeper</b> and read additional articles.  
 TedEd link: https://ed.ted.com/on/ZqB0pyBs 
@@ -45,15 +45,16 @@ TedEd link: https://ed.ted.com/on/ZqB0pyBs
 
 <img src="https://blogs.gartner.com/anthony_bradley/files/2020/01/4-Stages-of-Ethical-AI.png" width="500">
 
-In his article J. Bradley (2020) describes 4 stages relevant to AI bias; real world bias, data bias, algorithm bias and business bias.
-1. **Real world bias** involves actual bias in real world situations such as gender bias, name bias or beauty bias. 
-For example: Name bias is the tendency people have to judge and prefer people with certain types of names — typically names that are of Anglo origin. This may occur when reviewing your future classmates and some names will appear to you as 'foreign'. 
-2. **Data bias** happens when the data accurately reflects the real world. If the data is reflective of the real world it will also reflect the biases that occur in the real world. 
-3. **Algorithm bias**, an algorithm is a set of rules that precisely defines a sequence of operations. These rules are defined by humans and operated by machines, algorithm bias is an outcome of real world bias that humans have. 
-For example: when a job application filtering tool is trained on decisions made by humans, the machine learning algorithm may learn to discriminate against women or individuals with a certain ethnic background.
-4. **Bussiness bias** represents how businesses act upon the data/AI for business benefit. Mostly businesses will be bias based on relevant criteria that determines a good prospective customer, storefront geography, job candidate, product investment, etc. 
 
-This cycle presented in the figure presents how each bias effect the other in a cause and effect flow.
+In his article J. Bradley (2020) describes four stages relevant to AI bias; real-world bias, data bias, algorithm bias, and business bias.
+1. **Real-world bias** involves actual bias in real-world situations such as gender bias, name bias, or beauty bias. 
+For example, Name bias is the tendency people have to judge and prefer people with certain types of names — typically names that are of Anglo origin. This may occur when reviewing your future classmates and some names will appear to you as 'foreign'. 
+2. **Data bias** happens when the data accurately reflects the real world. If the data is reflective of the real-world it will also reflect the biases that occur in the real world. 
+3. **Algorithm bias**, an algorithm is a set of rules that precisely defines a sequence of operations. These rules are defined by humans and operated by machines, algorithm bias is an outcome of real-world bias that humans have. 
+For example: when a job application filtering tool is trained on decisions made by humans, the machine learning algorithm may learn to discriminate against women or individuals with a certain ethnic background.
+4. **Bussiness bias** represents how businesses act upon the data/AI for business benefit. Most businesses will be bias based on relevant criteria that determines a good prospective customer, storefront geography, job candidate, product investment, etc. 
+
+This cycle presented in the figure shows how each bias affects the other in a cause and effect flow.
 
 ---
 
@@ -63,7 +64,7 @@ AI "faking" technologies make what once could have been regarded as reliable evi
 
 ```
 Examples: 
-● People can be put in places they never visited by using photoshop.
+● People can be put in places they never visited with people they never met by using photoshop.
 ● AI can change the way one looks by 'slimming' them down in before and after pictures advertising a  diet pill.
 ```
 **Check out these "Fake" AI tools:**
@@ -76,11 +77,11 @@ Examples:
 
 ## Privacy & Surveillance
 
-As technology has advanced, the way in which privacy is protected and violated has changed with it. AI leads new kinds of threats to our privacy, which may be harder to avoid. AI can conduct facial analysis, skin texture analysis, speech recognition and emotion recognition. All without permission or cooperation from the individual.
+As technology has advanced, how privacy is protected and violated has changed with it. AI leads to new kinds of threats to our privacy, which may be harder to avoid. AI can conduct facial analysis, skin texture analysis, speech recognition, and emotion recognition. All without permission or cooperation from the individual.
 
 **An example can be using data analysis to identify individuals:**  
 
-In China the belief is that surveillance with Facial Recognition is essential to law enforcement and public safety. Even in the United States facial recognition for law enforcement is also routinely used everywhere, except in its tech capital -  San Francisco.
+In China, the belief is that surveillance with Facial Recognition is essential to law enforcement and public safety. Even in the U.S.A facial recognition for law enforcement is also routinely used everywhere, except in its tech capital -  San Francisco.
 
 <img src="https://media1.s-nbcnews.com/j/newscms/2019_19/2847376/190506-face-recognition-small-crimes-main-kh_af209030008a39ab916bb89809b55c04.fit-2000w.jpg" width="500">
 
@@ -94,11 +95,11 @@ In China the belief is that surveillance with Facial Recognition is essential to
 
 ## AI and Employment 
 
-Since the mid 20th century, technological development has lead to a period of extraordinary progress in automation. It seems clear that AI and robotics will lead to significant gains in productivity. Productivity gains through automation typically mean that fewer humans are required for the same output. With AI and robotics, there is even less need for many kinds of dull, repetitive work.
+Since the mid 20th century, technological development has lead to a period of extraordinary progress in automation. It seems clear that AI and robotics will lead to significant gains in productivity. Productivity gains through automation typically mean that a company or organization needs fewer humans for the same output. With AI and robotics, there is even less need for many kinds of dull, repetitive work.
 
-A study by Carl Benedikt Frey and Michael Osborne (2013) of Oxford University used a machine-learning algorithm to assess how easily 702 different kinds of job in America could be automated. They found that 47% of jobs could be done by machines over the next decade or two.
+A study by Carl Benedikt Frey and Michael Osborne (2013) of Oxford University used a machine-learning algorithm to assess how easily 702 different kinds of jobs in America could be automated. The results concluded that 47% of jobs in America could be done by machines over the next decade or two.
 
-The following 2 charts were published in 2018 by the OECD in a study (based on the study by Carl Benedikt Frey and Michael Osborne in 2013) that estimates the risk of automation for individual jobs based on 32 OECD countries that have participated in the Survey of Adult Skills (PIAAC).
+The following two charts were published in 2018 by the OECD in a study (based on the study by Carl Benedikt Frey and Michael Osborne in 2013) that estimates the risk of automation for jobs based on 32 OECD countries that have participated in the Survey of Adult Skills (PIAAC).
 
 <img src="https://www.economist.com/img/b/1280/969/90/sites/default/files/20180428_WOC328.png" width="500">
 
@@ -106,7 +107,7 @@ For the overall sample of 32 countries, the average job is estimated to have 48%
 
 <img src="https://www.economist.com/img/b/1280/915/90/sites/default/files/images/2018/04/blogs/graphic-detail/20180428_woc318_0.png" width="500">
 
-The job types that have the highest probability of becoming automated mostly do not require specific skills or training: food preparation assistants, construction workers, driver, cleaners and helpers. The industries with low average probability of being automated are mainly part of the service sector - education, health care, politics etc.
+The job types that have the highest probability of becoming automated mostly do not require specific skills or training: food preparation assistants, construction workers, driver, cleaners, and helpers. The industries with a low average probability of being automated are mainly part of the service sector - education, health care, politics, etc.
 
 ---
 
@@ -114,7 +115,7 @@ The job types that have the highest probability of becoming automated mostly do 
 
 Write an essay (minimum 500 words, maximum 800 words) on one of the following topics presented in this tutorial. 
 You can use articles to give examples and support your thoughts. 
-Please send the essay to us via email in PDF with your name written on the first page.
+Please send the essay to us via email in PDF with the chosen topic and your name written on the first page.
 
 ```
 The topics:
