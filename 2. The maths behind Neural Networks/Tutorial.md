@@ -1,4 +1,4 @@
-# The Maths behind a Neural Network
+# Simplified theory behind a Neural Network
 
 ```
 Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
@@ -53,19 +53,21 @@ Input enters the network. The summary of inputs multiplied by the weights is pas
 input * weight = guess
 ```
 
-Then the guess is compared to the ground-truth about the data (the labels we provide), effectively asking “Did I get this right?”.
+Then the guess is compared to the ground-truth about the data (the labels we provide), effectively asking “Did I get this right?”. 
 
 ```
 ground truth - guess = error
 ```
 
-The difference between the network’s guess and the ground truth is its error. The network measures that error, and walks the error back over its model, adjusting weights to the extent that they contributed to the error.
+The difference between the network’s guess and the ground truth is its error. The network measures that error, and walks the error back over its model, adjusting weights to the extent that they contributed to the error. Some details on this will be explained in the following chapter.
 
 ```
 error * weight's contribution to error = adjustment
 ```
 
+### Gradient Descent
 
+To compare the guess with the ground truth and optimize the weights, "Gradient descent" is applied. Gradient basically represents how two or more variables relate to each other: in this case - the relationship between the network’s error and a single weight. With the gradient it is possible to see how increasing or decreasing the weight by one step affects the error and then to choose the option that makes it smaller. This is done for all the weights in the model and in the end the essence of learning in deep learning is nothing more than that: adjusting a model’s weights in response to the error it produces, until you can’t reduce the error any more.
 
 ## References
 
