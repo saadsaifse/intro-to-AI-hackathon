@@ -7,8 +7,8 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 ## Overview
 
 ```
-● What are the elements of a Neural Network?
-● Training a neural network
+● [What are the elements of a Neural Network?](#what-are-the-elements-of-a-neural-network?)
+● [Training a neural network](#training-a-neural-network)
 ●
 
 ```
@@ -18,7 +18,7 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 
 ### Layers
 
-Neural networks are also called “stacked neural networks”, meaning networks composed of several layers. The layers are made of nodes. On the following image you can see an example of a simple neural network, that consists of the input layer, one hidden layer and the output layer, that has only two possible outcomes. The input layer consists of nods that get their values directly from the data. Each next layer's output serves as the subsequent layer's input.
+Neural networks are also called “stacked neural networks”, meaning networks composed of several layers. The layers are made of nodes. On the following image you can see an example of a simple neural network, that consists of the input layer, one hidden layer and the output layer, that has only two possible outcomes. The input layer consists of nodes that get their values directly from the data. Each next layer's output serves as the subsequent layer's input, thus **feeding forward** information. The output represents the combined input of all the nodes. 
 If a neural network has more than 1 hidden layer, it is called deep.
 
 !["Simple network" image](./images/mlp.png "source: A Beginner's Guide to Neural Networks and Deep Learning")
@@ -53,7 +53,7 @@ Input enters the network. The summary of inputs multiplied by the weights is pas
 input * weight = guess
 ```
 
-Then the guess is compared to the ground-truth about the data (the labels we provide), effectively asking “Did I get this right?”. 
+Then the guess is compared to the ground-truth about the data (the labels we provide), effectively asking “Did I get this right?”. This answer to this question is provided by what is called a **cost function**
 
 ```
 ground truth - guess = error
@@ -67,7 +67,10 @@ error * weight's contribution to error = adjustment
 
 ### Gradient Descent
 
-To compare the guess with the ground truth and optimize the weights, "Gradient descent" is applied. Gradient basically represents how two or more variables relate to each other: in this case - the relationship between the network’s error and a single weight. With the gradient it is possible to see how increasing or decreasing the weight by one step affects the error and then to choose the option that makes it smaller. This is done for all the weights in the model and in the end the essence of learning in deep learning is nothing more than that: adjusting a model’s weights in response to the error it produces, until you can’t reduce the error any more.
+To compare the guess with the ground truth and optimize the weights, "Gradient descent" is applied. Gradient basically represents how two or more variables relate to each other: in this case - the relationship between the network’s error and the weights. With the gradient it is possible to see how increasing or decreasing a weight by one step affects the error and then to choose the option that makes it smaller. This is done recursively for all the weights in the model and in the end the essence of learning in deep learning is nothing more than that: adjusting a model’s weights in response to the error it produces, until you can’t reduce the error any more. Going back through the network to adjust the weights is a technique called **backpropagation**.
+
+!["Gradient descent" image](./images/gradient_descent_demystified.png "source: ML Glossary")
+
 
 ## References
 
@@ -75,5 +78,5 @@ To compare the guess with the ground truth and optimize the weights, "Gradient d
 ● Elements of AI, Helsinki University - https://course.elementsofai.com/
 ● A Beginner's Guide to Neural Networks and Deep Learning -
 https://pathmind.com/wiki/neural-network
-● 
+● Machine Learning Glossary - https://ml-cheatsheet.readthedocs.io/en/latest/
 ```
