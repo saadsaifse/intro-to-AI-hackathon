@@ -7,14 +7,14 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 ---
 
 
-### Objectives
+## Objectives
 
 After completing this tutorial, readers will
 
 - Get familiar with tools used for Image Classification
 - Perform a practical ML tutorial to classify cats and dogs images
 
-### Steps
+## Steps
 
 **Total duration:** 40-50 minutes
 
@@ -24,6 +24,20 @@ After completing this tutorial, readers will
 
 ---
 
+## Image Classification Tools
+
+> This tutorial can be performed without installing any of the mentioned tools on your machine. However, it is encouraged to install and experiment with these tools and run the tutorial on your own machine.
+
+There are several tool to perform machine and deep learning, but in this section, a brief introduction is provided to the tools that are used in this tutorial.
+
+### Programming Language
+The language of choice for this tutorial is Python. Mainly because it has the following advantages:
+
+- Open Source: Python is an open source language that means anyone can use and contribute towards the development of the language and its related tools
+- Simple to learn: Python is really simple to learn and also contains a lot of libraries that can be readily used to perform difficult tasks with simple function calls 
+- Great for data handling: With Python, the handling of data is simple, for example reading CSV files, creating matrices, lists and arrays are quite user friendly
+
+A basic understanding of Python is assumed for this tutorial. To learn more about Python, visit https://www.python.org/about/gettingstarted/. 
 
 ### TensorFlow for Machine and Deep Learning
 
