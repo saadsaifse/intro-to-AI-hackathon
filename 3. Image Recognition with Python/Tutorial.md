@@ -11,19 +11,16 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 
 After completing this tutorial, readers will
 
+- Get familiar with tools used for Image Classification
+- Perform a practical ML tutorial to classify cats and dogs images
+
 ### Steps
 
-**Total duration:** 50-60 minutes
+**Total duration:** 40-50 minutes
 
-- Setting-up the development environment - 5 minutes
-- Explore the example data - 5 minutes
-- Build a small convnet from scratch to solve our classification problem - 10 mins
-- Evaluate training and validation accuracy - 5 mins
-<!-- - Importing and preparing the data - 5 minutes
-- Compiling and training the model - 10 minutes
-- Visualizing the training results - 5 minutes
-- Using the model to predict classes for new images - 5 minutes -->
-- Tasks - 10-15 minutes
+- Familiarity with Image Classification tools - 10 minutes
+- Perform practical machine learning to classify cat and dogs images - 25 minutes
+- Tasks - 15 minutes 
 
 ---
 
