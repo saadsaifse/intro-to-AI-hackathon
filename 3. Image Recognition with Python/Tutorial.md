@@ -19,7 +19,7 @@ After completing this tutorial, readers will
 **Total duration:** 40-50 minutes
 
 - Familiarity with Image Classification tools - 10 minutes
-- Perform practical machine learning to classify cat and dogs images - 25 minutes
+- Perform practical machine learning to classify cats and dogs images - 25 minutes
 - Tasks - 15 minutes 
 
 ---
@@ -30,7 +30,7 @@ After completing this tutorial, readers will
 
 There are several tool to perform machine and deep learning, but in this section, a brief introduction is provided to the tools that are used in this tutorial.
 
-### Programming Language
+### Python Programming Language
 The language of choice for this tutorial is Python. Mainly because it has the following advantages:
 
 - Open Source: Python is an open source language that means anyone can use and contribute towards the development of the language and its related tools
@@ -39,25 +39,43 @@ The language of choice for this tutorial is Python. Mainly because it has the fo
 
 A basic understanding of Python is assumed for this tutorial. To learn more about Python, visit https://www.python.org/about/gettingstarted/. 
 
+### Jupyter Notebook
+The Jupyter Notebook is an open-source web application that allows to create and share documents that contain live code, equations, visualizations and narrative text. 
+Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+JupyterLab is a new interface for the Jupyter Notebooks and is recommended to use. You can install Jupyter Notebook and JupyerLab on your machine to use them with Python or many other languages.
+
+To learn more about Jupyter Notebook, visit https://jupyter.org/index.html
+
+### Google Colaboratory
+While Jupyter Notebooks are a great tool to write Python code, it has to be installed. It also has a cloud based Jupyter Hub but there is a better option by Google, called Google Colab.
+Google Colaboratory, or "Colab" for short, allows to write and execute Python in the browser, with
+
+- Zero configuration required
+- Free access to GPUs
+- Easy sharing
+
+Colab notebooks execute code on Google's cloud servers, meaning you can leverage the power of Google hardware, including GPUs and TPUs, regardless of the power of your machine. All you need is a browser. 
+
+It is perfect for students, data scientists or AI researchers. To learn more about Google Colab, visit https://colab.research.google.com/notebooks/intro.ipynb#scrollTo=5fCEDCU_qrC0
+
+
 ### TensorFlow for Machine and Deep Learning
 
-We will perform image classification using the following tools:
+TODO
 
-- TensorFlow - an end-to-end open source platform for machine learning.
-- Jupyter Notebook - an open-source application that allows to create and share documents that contain live code, equations, visualizations and narrative text.
-- Google Colaboratory - a browser-based environment that allows you to write and execute Python in your browser. Colab notebooks are Jupyter notebooks that are hosted by Colab
-- Python 3 - preferred programming language for machine learning with TensorFlow
-- Keras - a high-level deep-learning API for configuring neural networks.
-- Other libraries - such as Numpy, Pandas, and Matplotlib etc.
+### Keras
 
-We will perform everything in the browser so you do not have to install or perform any kind of setup on your laptop.
+TODO
+
+### Other Libs 
+e.g., Numpy, Pandas, Matplotlib etc. 
+TODO
+
+## Classify Cats & Dogs Images 
+
+TODO: 
 
 For a beginners guide about machine learning using TensorFlow, go through this Hello World tutorial https://codelabs.developers.google.com/codelabs/tensorflow-lab1-helloworld/#0
-
-## Setting-up the development environment
-Make a video/screen-recording of setting up a mac and windows and run the basic code example
-
-## Cat vs. Dog Image Classification
 
 ### Explore the example data
 
