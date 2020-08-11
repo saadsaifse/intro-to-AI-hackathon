@@ -1,4 +1,4 @@
-# Simplified theory behind a Neural Network
+# Neural Networks. Theory and Practice
 
 ```
 Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
@@ -7,14 +7,16 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 ## Overview
 
 ```
-● [What are the elements of a Neural Network?](#what-are-the-elements-of-a-neural-network?)
+● [Elements of a Neural Network](#elements-of-a-neural-network)
 ● [Training a neural network](#training-a-neural-network)
-●
+● 
 
 ```
 ---
 
-## What are the elements of a Neural Network?
+### My Multi Word Header
+
+## Elements of a Neural Network
 
 ### Layers
 
