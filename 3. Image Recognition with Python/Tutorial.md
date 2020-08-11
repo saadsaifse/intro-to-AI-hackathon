@@ -10,6 +10,23 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 
 ## Overview
 
+### What is an image?
+
+A digital image is simply a collection of points on the screen. These points are called pixels and the whole screen is composed of such pixels. How many pixels does a screen contain varies in different devices and is defined by pixels per inch or PPI. Resolution of the screen or image defines how these pixels are spread through the screen. In an RGB (Red--Green-Blue) screen, each pixel can have any combination of RGB values that allows a pixel to have millions of colors. The more the pixels per inch, the clearer and sharper the image becomes. When looked at the screen by the naked eye, these pixels form a smooth image that we all see and like taking them for our social media profiles ;)
+
+### How To Recognize Images?
+
+Humans can easily recognize what is inside the image by just looking at the image itself. If they have previously seen the objects inside the image, they must be able to recognize the objects inside the image. But for computers, recognizing an image is way too different. To feel the pain of a computer, consider answering the following question. 
+
+**How would you describe an image to someone or someone who is blind?**
+
+- **Easy:** Using words that you may know
+- **Medium:** From geometric primitives (lines, curves, shape, color, etc.)
+- **Difficult:** From the raw pixels
+
+To recognize an image, human brain has learnt from the vast number of past experiences of looking at the objects that we can recognize. Humans develop this ability to classify an image and tell whether there is a dog or a cat in the image. Computers only "see" images as the amount of red, blue, and green at each pixel. Everything else we want them to know, we would have had to describe in terms of pixels.
+
+
 ### Objectives
 
 After completing this tutorial, readers will
