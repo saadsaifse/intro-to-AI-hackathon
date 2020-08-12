@@ -101,7 +101,8 @@ To compare the guess with the ground truth and optimize the weights, "Gradient d
 
 ---
 
-The neural networks used 
+There are different kinds of Neural Networks. The ones usually used for image recognition are the **convolutional** ones. Now that we know how Neural Networks work in principle, let's get into the specifics of them. 
+
 ## Convolutional Neural Networks (CNN) for Image Classification 
 
 A breakthrough in building models for image classification came with the discovery that a convolutional neural network (CNN) could be used to progressively extract higher- and higher-level representations of the image content. Instead of preprocessing the data to derive features like textures and shapes, a CNN takes just the image's raw pixel data as input and "learns" how to extract these features, and ultimately infer what object they constitute.
