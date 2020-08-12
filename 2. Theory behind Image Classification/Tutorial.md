@@ -10,9 +10,9 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 ● What is an image and how can we recognize images? 
 ● Machine approaches to image recognition
 ● What are Neural Networks
-● Convolutional Neural Networks (CNN) for Image Classification
-
+● Convolutional Neural Networks for Image Classification
 ```
+
 ---
 
 In the previous tutorial we found out that we can use Artificiall Intelligence for image recognition. In this one we are going to go through how that is possible and get an intuitive understanding of what is going on there.
@@ -59,16 +59,16 @@ If a neural network has more than 1 hidden layer, it is called deep.
 
 **Weights and inputs**
 
-Similarly to the neurons in a human brain, the nodes are linked together and fire when receive enough stimuli from the other nodes. The nodes both process and store information. As seen on the image, the node takes inputs from the preceding nodes, combines them with a set of coefficients (weights), that either increase or decrease importance of each input, and sums it all up. 
+Similarly to the neurons in a human brain, the nodes are linked together and fire when they receive enough stimuli from the other nodes. The nodes both process and store information. As seen on the image, the node takes inputs from the preceding nodes, combines them with a set of coefficients (weights), that either increase or decrease importance of each input, and sums it all up. 
 
 **Activations and outputs**
 
-Then the computed sum is then passed to the activation function, which decides what value in the range from 0 to 1 to store in the node as a result. The closer the value is to 1, the more "activated" it becomes.
+The computed sum is then passed to the activation function, which decides what value in the range from 0 to 1 to store in the node as a result. The closer the value is to 1, the more **activated** it becomes.
 The output then becomes the next layer's input or, if it's the output layer, is used to extract a prediction or a decision from the neural network. The most activated node is then the most probable outcome.
 
 ### Training a neural network
 
-So to be able to classify something, we need the following elements: input data, weights, and an activation function. The first is provided, the last we choose from the available functions and to have the weights we need to train the network. To train it we can provide labels for each item in our training data, or just let the network find some patterns and features automatically, draw connections between them and distinguish various classes by itself. Training it on labeled data can be more performative, as the network will be comparing its results to the results we want it to achieve and adjusting the weights accordingly. This is done through forward propagation and back propagation.
+So to be able to classify something, we need the following elements: input data, weights, and an activation function. The first is provided, the last we choose from the available functions, and to have the weights we need to train the network. To train it we can provide labels for each item in our training data, or just let the network find some patterns and features automatically, draw connections between them, and distinguish various classes by itself. Training it on labeled data can be more performative, as the network will be comparing its results to the results we want it to achieve and adjusting the weights accordingly. 
 
 The goal of training the network is to have the labels predicted by the network as close to the real labels as possible. In other words, we must minimize the difference between them, also called the error.
 At first all the weights are initialized randomly. Each next step involves an error measurement and a slight update of the weights, as the network slowly learns from its mistakes and is repeated until the least possible error is achieved. A final collection of weights is then called a **model**.
@@ -87,7 +87,7 @@ Then the guess is compared to the ground-truth about the data (the labels we pro
 ground truth - guess = error
 ```
 
-The difference between the network’s guess and the ground truth is its error. The network measures that error, and walks the error back over its model, adjusting weights to the extent that they contributed to the error. Some details on this will be explained in the following chapter.
+The difference between the network’s guess and the ground truth is its error. The network measures that error, and walks the error back over its model, adjusting weights to the extent that they contributed to the error. Some details on this will be explained in the following paragraph.
 
 ```
 error * weight's contribution to error = adjustment
@@ -95,67 +95,57 @@ error * weight's contribution to error = adjustment
 
 #### Gradient Descent
 
-To compare the guess with the ground truth and optimize the weights, "Gradient descent" is applied. Gradient basically represents how two or more variables relate to each other: in this case - the relationship between the network’s error and the weights. With the gradient it is possible to see how increasing or decreasing a weight by one step affects the error and then to choose the option that makes it smaller. This is done recursively for all the weights in the model and in the end the essence of learning in deep learning is nothing more than that: adjusting a model’s weights in response to the error it produces, until you can’t reduce the error any more. Going back through the network to adjust the weights is a technique called **backpropagation**.
+To compare the guess with the ground truth and optimize the weights, “Gradient descent” is applied. The gradient basically represents how two or more variables relate to each other: in this case - the relationship between the network’s error and the weights. With the gradient it is possible to see how increasing or decreasing a weight by one step affects the error and then to choose the option that makes the error smaller. This is done recursively for all the weights in the model and in the end the essence of learning in Deep Learning is nothing more than that: adjusting a model’s weights in response to the error it produces, until you can’t reduce the error any more. Going back through the network to adjust the weights is a technique called **backpropagation**.
 
 !["Gradient descent" image](./images/gradient_descent_demystified.png "source: ML Glossary")
 
 ---
 
-There are different kinds of Neural Networks. The ones usually used for image recognition are the **convolutional** ones. Now that we know how Neural Networks work in principle, let's get into the specifics of them. 
+There are different kinds of Neural Networks. The ones usually used for image recognition are the **convolutional** ones. Now that we know how Neural Networks work in principle, let's get into what it adds to what we already know about Neural Networks.
 
 ## Convolutional Neural Networks (CNN) for Image Classification 
 
-A breakthrough in building models for image classification came with the discovery that a convolutional neural network (CNN) could be used to progressively extract higher- and higher-level representations of the image content. Instead of preprocessing the data to derive features like textures and shapes, a CNN takes just the image's raw pixel data as input and "learns" how to extract these features, and ultimately infer what object they constitute.
+A mentioned previously, a CNN takes just the image’s raw pixel data as input and “learns” how to extract relevant features, and ultimately infers what object they constitute.
 
-To start, the CNN receives an input feature map: a three-dimensional matrix where the size of the first two dimensions corresponds to the length and width of the images in pixels. The size of the third dimension is 3 (corresponding to the 3 channels of a color image: red, green, and blue). The CNN comprises a stack of modules, each of which performs three operations.
+To start, the CNN receives an input image: a three-dimensional matrix where the size of the first two dimensions corresponds to the length and width of the images counted in pixels. The size of the third dimension is 3 ( = the 3 channels of a color image: red, green, and blue).
 
 ### 1. Convolution
-A convolution extracts tiles of the input feature map, and applies filters to them to compute new features, producing an output feature map, or convolved feature (which may have a different size and depth than the input feature map). Convolutions are defined by two parameters:
-
-- Size of the tiles that are extracted (typically 3x3 or 5x5 pixels).
-- The depth of the output feature map, which corresponds to the number of filters that are applied.
-
-During a convolution, the filters (matrices the same size as the tile size) effectively slide over the input feature map's grid horizontally and vertically, one pixel at a time, extracting each corresponding tile (see Figure 3).
 
 ![convolution-overview](images/convolution-overview.gif)
 
-Figure 3. A 3x3 convolution of depth 1 performed over a 5x5 input feature map, also of depth 1. There are nine possible 3x3 locations to extract tiles from the 5x5 feature map, so this convolution produces a 3x3 output feature map.
+A convolution is a mathematical way of combining two signals to form a third signal.  The way it combines them is using a **kernel** (a small matrix of weights): it goes over the 2D input data, performing an elementwise multiplication, and then summing up the results into a single output pixel. The result it produces is an output feature map, also called a convolutional layer
 
+On the following image a 3x3 convolution of depth 1 performed over a 5x5 input image, also of depth 1. 
 For each filter-tile pair, the CNN performs element-wise multiplication of the filter matrix and the tile matrix, and then sums all the elements of the resulting matrix to get a single value. Each of these resulting values for every filter-tile pair is then output in the convolved feature matrix (see Figures 4a and 4b).
 
 ![conv-feature-filter](images/conv-feature-filter.png)
 
-Figure 4a. Left: A 5x5 input feature map (depth 1). Right: a 3x3 convolution (depth 1).
+On the image underneath you can see the 3x3 convolution being performed on the 5x5 input image and on the right is the resulting output.
 
 ![conv-applied-filter](images/conv-applied-filter.png)
-Figure 4b. Left: The 3x3 convolution is performed on the 5x5 input feature map. Right: the resulting convolved feature. Click on a value in the output feature map to see how it was calculated.
 
-During training, the CNN "learns" the optimal values for the filter matrices that enable it to extract meaningful features (textures, edges, shapes) from the input feature map. As the number of filters (output feature map depth) applied to the input increases, so does the number of features the CNN can extract. However, the tradeoff is that filters compose the majority of resources expended by the CNN, so training time also increases as more filters are added. Additionally, each filter added to the network provides less incremental value than the previous one, so engineers aim to construct networks that use the minimum number of filters needed to extract the features necessary for accurate image classification.
+During training, the CNN also “learns” the optimal values for the kernel that let it extract meaningful features (textures, edges, shapes) from the input image. 
 
 ### 2. ReLU
 
-Following each convolution operation, the CNN applies a Rectified Linear Unit (ReLU) transformation to the convolved feature, in order to introduce nonlinearity into the model. The ReLU function, , returns x for all values of x > 0, and returns 0 for all values of x ≤ 0.
+Following each convolution operation, the CNN also applies an activation function, - usually the one called Rectified Linear Unit (ReLU), which returns x for all values of x > 0, and returns 0 for all values of x ≤ 0.
 
 ### 3. Pooling
-After ReLU comes a pooling step, in which the CNN downsamples the convolved feature (to save on processing time), reducing the number of dimensions of the feature map, while still preserving the most critical feature information. A common algorithm used for this process is called max pooling.
 
-Max pooling operates in a similar fashion to convolution. We slide over the feature map and extract tiles of a specified size. For each tile, the maximum value is output to a new feature map, and all other values are discarded. Max pooling operations take two parameters:
-
-- Size of the max-pooling filter (typically 2x2 pixels)
-- Stride: the distance, in pixels, separating each extracted tile. Unlike with convolution, where filters slide over the feature map pixel by pixel, in max pooling, the stride determines the locations where each tile is extracted. For a 2x2 filter, a stride of 2 specifies that the max pooling operation will extract all nonoverlapping 2x2 tiles from the feature map (see Figure 5).
+After ReLU comes a step of downsampling, called **pooling**, which reduces the number of dimensions of the feature map to decrease processing time, while keeping the most important feature information. Here we again go over the image in the convolutional layer and take only the maximum value, discarding the others. You can see the visualization on the following gif, performed over a 4x4 image with a 2x2 filter
 
 ![maxpool-anim](images/maxpool-animation.gif)
-Figure 5. Left: Max pooling performed over a 4x4 feature map with a 2x2 filter and stride of 2. Right: the output of the max pooling operation. Note the resulting feature map is now 2x2, preserving only the maximum values from each tile.
 
 ### Fully Connected Layers
-At the end of a convolutional neural network are one or more fully connected layers (when two layers are "fully connected," every node in the first layer is connected to every node in the second layer). Their job is to perform classification based on the features extracted by the convolutions. Typically, the final fully connected layer contains a softmax activation function, which outputs a probability value from 0 to 1 for each of the classification labels the model is trying to predict.
+The last step in a CNN contains one or more **fully connected layers**: every node in the first one is connected to every node in the second one. The activation function in the last one is typically Softmax and it gives us a probability value from 0 to 1 for each of the classes we train our network to predict. Thus we are able to perform classification based on the features that were extracted using convolutions.
 
-Figure 6 illustrates the end-to-end structure of a convolutional neural network.
+Here is a visualizaion of the full structure of a convolutional neural network. It has two convolution modules to extract the features (each containing convolution, ReLU, and pooling), and two fully connected layers to classify whether the picture is of a cat or not.
+
 ![conv-full](images/conv-full.png)
 
-Figure 6. The CNN shown here contains two convolution modules (convolution + ReLU + pooling) for feature extraction, and two fully connected layers for classification. Other CNNs may contain larger or smaller numbers of convolutional modules, and greater or fewer fully connected layers. Engineers often experiment to figure out the configuration that produces the best results for their model.
+This is just one example of how a CNN can be structured, but now that we intuitively understand how they work, we can do some real experiments in the next tutorial!
 
-
+---
 
 ## References
 
@@ -164,4 +154,7 @@ Figure 6. The CNN shown here contains two convolution modules (convolution + ReL
 ● A Beginner's Guide to Neural Networks and Deep Learning -
 https://pathmind.com/wiki/neural-network
 ● Machine Learning Glossary - https://ml-cheatsheet.readthedocs.io/en/latest/
+● The Scientist and Engineer's Guide to Digital Signal Processing - https://www.dspguide.com/ch6/2.htm
+● ML Practicum: Image Classification - https://developers.google.com/machine-learning/practica/image-classification
+● Intuitively Understanding Convolutions for Deep Learning - https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1
 ```
