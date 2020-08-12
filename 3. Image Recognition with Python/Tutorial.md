@@ -61,15 +61,29 @@ It is perfect for students, data scientists or AI researchers. To learn more abo
 
 ### TensorFlow for Machine and Deep Learning
 
-TODO
+TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
+TensorFlow provides many high-level application programming interfaces (APIs) such as Sequential API and Keras API to easily build and train ML models. 
+
+We will use TensorFlow as our main ML tool to develop a deep learning model that recognizes and classifies cats and dogs images. To learn more about TensorFlow, visit https://www.tensorflow.org/learn
 
 ### Keras
-
-TODO
+Keras is an open-source library to create neural-networks. It is designed to be user-friendly, modular, and extensible. Keras contains numerous implementations of commonly used neural-network building blocks such as layers, objectives, activation functions, optimizers, and a host of tools to make working with image and text data easier to simplify the coding necessary for writing deep neural network code.
+Since 2017, Keras is available inside the TensorFlow library which makes it even easier to use. To learn more about Keras, visit https://keras.io/
 
 ### Other Libs 
-e.g., Numpy, Pandas, Matplotlib etc. 
-TODO
+
+Apart from the main tools and libraries mentioned above, following libraries are also used that provide the core data handling and visualization functionalities using Python.
+
+#### NumPy
+The fundamental package for scientific computing with Python. It adds support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. Visit https://numpy.org/ for more details
+
+#### Pandas
+pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+built on top of the Python programming language. It offers data structures and operations for manipulating numerical tables and time series (a time-based series of data). Visit https://pandas.pydata.org/ for more details.
+
+#### Matplotlib
+Matplotlib is a Python library to visualize results. Static, animated, and interactive visualizations can be created using Matplotlib.
+Visit https://matplotlib.org/ for more details.
 
 ## Classify Cats & Dogs Images 
 
