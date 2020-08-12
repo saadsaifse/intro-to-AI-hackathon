@@ -7,98 +7,44 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 ## Overview
 
 ```
-● What is an image and how do we recognize images
-● Different ways to recognize images (before ML and with ML and AI and stuffs; ML vs DL)
+● What is an image and how can we recognize images? 
+● Machine approaches to image recognition
 ● What are Neural Networks
-● What are CNNs
-● 
+● Convolutional Neural Networks (CNN) for Image Classification
 
 ```
 ---
 
-# Will be shortened and simplified
+In the previous tutorial we found out that we can use Artificiall Intelligence for image recognition. In this one we are going to go through how that is possible and get an intuitive understanding of what is going on there.
 
-# So now we kind of know what ML and DL are, so what do we do if we want to classify an image? 
+## What is an image and how can we recognize images? 
 
-## What even is an image?
+A **digital image** is simply a collection of points on the screen, also called pixels. The resolution of an image is defined by how many pixels it consists of and their width to height proportion. The more pixels per centimeter - the clearer and sharper the image looks. If we have an RGB (Red-Green-Blue) image, each pixel has three values, corresponding to each of the colours. The higher the value - the more intense the colour. Often these values are within the range of 0 and 255. Thus, for instance (255, 0, 0) would give us the red colour, (0, 255, 0) - green, and (0, 0, 255) - blue. (0, 0, 0) is black and (255, 255, 255) is white. Combining them is similar to combining paints when you draw: (128, 0, 128) - a combination of red and blue would result in a purple colour!
 
-A digital image is simply a collection of points on the screen. These points are called pixels and the whole screen is composed of such pixels. How many pixels does a screen contain varies in different devices and is defined by pixels per inch or PPI. Resolution of the screen or image defines how these pixels are spread through the screen. In an RGB (Red--Green-Blue) screen, each pixel can have any combination of RGB values that allows a pixel to have millions of colors. The more the pixels per inch, the clearer and sharper the image becomes. When looked at the screen by the naked eye, these pixels form a smooth image that we all see and like taking them for our social media profiles ;)
+Humans can easily recognize what is inside the image by just looking at it if we have previously learned what those objects are. Computers also at first have to learn the object before they can recognize it on an image. And for this they need exactly what a digital image consists of - the pixels. Everything else we want them to know we have to describe in term of pixels.
 
-### How To Recognize Images?
+---
 
-Humans can easily recognize what is inside the image by just looking at the image itself. If they have previously seen the objects inside the image, they must be able to recognize the objects inside the image. But for computers, recognizing an image is way too different. To feel the pain of a computer, consider answering the following question. 
+## Machine approaches to image recognition
 
-**How would you describe an image to someone or someone who is blind?**
+- Early Computer Vision models only used the raw pixels as input. But then the results heavily relied on the position of the object, the background, lightning, camera focus, etc.
+- Then the Machine Learning models integrated features to derive from pixel data: textures, shapes, edges, and color distributions. There are many different ways to train a classifier once we defined the features and the choice depends on the data you are dealing with.
+- Deep Learning works differently: instead of providing a set of instructions, we provide examples: we give the computer a thousand images of bread and a thousand images of cake and ask it to learn the difference. While learning, it decides by itself which features are important and which are not. Then we show it an image it has not seen before and let it decide if it's a bread or a cake. 
 
-- **Easy:** Using words that you may know
-- **Medium:** From geometric primitives (lines, curves, shape, color, etc.)
-- **Difficult:** From the raw pixels
+The question ofen is whether to use Machine learning or Deep learning. The decision comes down to two factors: 
+1. How many images do we have to train the classifier?
+2. What hardware resources are available? - Deep Learning takes a lot of time!
+If we have a lot of data and resources we should go with Deep learning, as then it has all the chances to be more accurate. Otherwise we should choose a Machine Learning approach and extract important features ourselves.
 
-To recognize an image, human brain has learnt from the vast number of past experiences of looking at the objects that we can recognize. Humans develop this ability to classify an image and tell whether there is a dog or a cat in the image. Computers only "see" images as the amount of red, blue, and green at each pixel. Everything else we want them to know, we would have had to describe in terms of pixels.
+More to this topic can be found in [this video](https://www.youtube.com/watch?v=-SgkLEuhfbg).
 
-### Image Classification before Machine Learning
+---
 
-Early computer vision models relied on raw pixel data as the input to the model. However, as shown in Figure 2, raw pixel data alone doesn't provide a sufficiently stable representation to encompass the myriad variations of an object as captured in an image. The position of the object, background behind the object, ambient lighting, camera angle, and camera focus all can produce fluctuation in raw pixel data; these differences are significant enough that they cannot be corrected for by taking weighted averages of pixel RGB values.
+Since Deep Learning is more accurate (and nowadays also more popular), we're going to proceed with it! As you may remember from the first tutorial, Deep Learning is a subfield of Machine Learning concerned with algorithms inspired by the human brain, called artificial neural networks.
 
-![cat-variation](images/cat-variation.png)
+## So what is a Neural Network?
 
-To model objects more flexibly, classic computer vision models added new features derived from pixel data, such as color histograms, textures, and shapes. The downside of this approach was that feature engineering became a real burden, as there were so many inputs to tweak. For a cat classifier, which colors were most relevant? How flexible should the shape definitions be? Because features needed to be tuned so precisely, building robust models was quite challenging, and accuracy suffered.
-
-### Introduction to image recognition and selected tools
-
-**How would you describe an image to someone or someone who is blind?**
-
-- **Easy:** Using words that you may know
-- **Medium:** From geometric primitives (lines, curves, shape, color, etc.)
-- **Difficult:** From the raw pixels
-
-Well, just train a Neural Network :)
-
-To recognize an image, human brain has learnt from the vast number of past experiences of looking at the objects that we can recognize. Humans develop this ability to classify an image and tell whether there is a dog or a cat in the image. Computers only "see" images as the amount of red, blue, and green at each pixel. Everything else we want them to know, we would have had to describe in terms of pixels.
-
-Artificial intelligence takes a different approach. Instead of providing instructions, we provide examples. Above, we could show our robot thousands of labeled images of bread and thousands of labeled images of other objects and ask our robot to learn the difference. Our robot could then build its own program to identify new groups of pixels (images) as bread.
-
-Machine and Deep learning both provide ways for computers to classify data such as images. In order to classify images, a model is trained with the sample/training images using Machine or Deep learning based models. 
-
-**What is model anyway?**: In traditional programming your code compiles into a binary that is typically called a program. In machine learning, the item you create from the data and labels is called a model. In short, a model is a trained neural network which is trained using the provided labeled/unlabeled data. For image classification, we already have the labels of training images i.e., it is a supervised learning problem rather than an unsupervised one. We deal only with labeled data and supervised learning here.
-
-### Machine Learning vs. Deep Learning For Image Classification
-A valid question that arise here is should one use a Machine Learning based model or a Deep Learning based model? The answer to this question is better explained in [this video](https://www.youtube.com/watch?v=-SgkLEuhfbg).
-
-The basic idea is that, in machine learning, we take many pictures of cats and dogs and come up with an algorithm to extract some features (e.g., edges, corners, etc) from within the images. This is called Feature Selection and there is a whole lots of ways to do that. Once we have extracted the features from the images, we train one of the machine learning models such as Support Vector Machines (SVM), k-nearest neighbor (kNN), and others using the extracted features. Once the model is trained, it knows how to classify dogs and cats and it can take any new (previously unseen) picture to analyze and classify them. The following image illustrated the process using machine learning.
-
-![using-ml](images/using-ml.png)
-
-While in deep learning, which is a sub-discipline of machine learning, training images can be directly def into the model or a network. The model extracts the features from the images on its own to learn to classify the images, as shown in the below image. 
-
-![dl-process](images/dl-process.png)
-
-![using-dl](images/using-dl.png)
-
-Another way to understand the difference is using the below figure which is stating the same difference with different visuals.
-
-![ml-vs-dl-flow](images/ml-vs-dl-flow.png)
-
-
-With that important difference between machine and deep learning for image classification in mind, the question is which one should be used and under what circumstances.
-
-#### Choosing Between Machine or Deep Learning
-
-The decision comes down to the following two questions
-
-- How big is the dataset?
-- How much hardware resources are available? 
-
-Typically, a deep learning based algorithm consumes a lot of hardware resources (GPUs) in order to extract the features from the images and learn from them. This is comparatively done with relatively large datasets than machine learning based models and also takes more time to train the model.
-
-Therefore, if there is a less data and less hardware resources for deep learning, a machine learning based approach is more suitable, otherwise the deep learning based approach can also be considered.
-
-Following image helps in choosing which one to use.
-
-![ml-vs-dl-use](images/ml-vs-dl-stats.png)
-
-
-## Elements of a Neural Network
+To get an intuitive understanding how it works, let's first look at its components:
 
 ### Layers
 
@@ -120,9 +66,7 @@ Similarly to the neurons in a human brain, the nodes are linked together and fir
 Then the computed sum is then passed to the activation function, which decides what value in the range from 0 to 1 to store in the node as a result. The closer the value is to 1, the more "activated" it becomes.
 The output then becomes the next layer's input or, if it's the output layer, is used to extract a prediction or a decision from the neural network. The most activated node is then the most probable outcome.
 
----
-
-## Training a neural network
+### Training a neural network
 
 So to be able to classify something, we need the following elements: input data, weights, and an activation function. The first is provided, the last we choose from the available functions and to have the weights we need to train the network. To train it we can provide labels for each item in our training data, or just let the network find some patterns and features automatically, draw connections between them and distinguish various classes by itself. Training it on labeled data can be more performative, as the network will be comparing its results to the results we want it to achieve and adjusting the weights accordingly. This is done through forward propagation and back propagation.
 
@@ -149,14 +93,17 @@ The difference between the network’s guess and the ground truth is its error. 
 error * weight's contribution to error = adjustment
 ```
 
-### Gradient Descent
+#### Gradient Descent
 
 To compare the guess with the ground truth and optimize the weights, "Gradient descent" is applied. Gradient basically represents how two or more variables relate to each other: in this case - the relationship between the network’s error and the weights. With the gradient it is possible to see how increasing or decreasing a weight by one step affects the error and then to choose the option that makes it smaller. This is done recursively for all the weights in the model and in the end the essence of learning in deep learning is nothing more than that: adjusting a model’s weights in response to the error it produces, until you can’t reduce the error any more. Going back through the network to adjust the weights is a technique called **backpropagation**.
 
 !["Gradient descent" image](./images/gradient_descent_demystified.png "source: ML Glossary")
 
+---
 
-## Working of Convolutional Neural Network (CNN) for Image Classification 
+There are different kinds of Neural Networks. The ones usually used for image recognition are the **convolutional** ones. Now that we know how Neural Networks work in principle, let's get into the specifics of them. 
+
+## Convolutional Neural Networks (CNN) for Image Classification 
 
 A breakthrough in building models for image classification came with the discovery that a convolutional neural network (CNN) could be used to progressively extract higher- and higher-level representations of the image content. Instead of preprocessing the data to derive features like textures and shapes, a CNN takes just the image's raw pixel data as input and "learns" how to extract these features, and ultimately infer what object they constitute.
 
