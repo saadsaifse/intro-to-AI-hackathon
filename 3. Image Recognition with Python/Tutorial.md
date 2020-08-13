@@ -100,5 +100,8 @@ Tutorial link: https://colab.research.google.com/drive/1ixqbOLgEw8GLQxBK2RjH8L_c
 ### Watch ML vs DL video 
 This video helps clear why we are using deep learning for image classification https://www.youtube.com/watch?v=-SgkLEuhfbg
 
+### Watch Image Classification with CNN video
+https://www.youtube.com/watch?time_continue=186&v=2JEtEdsLdoo&feature=emb_logo
+
 ### Complete the TensorFlow ML beginners guide
 For a beginners guide about machine learning using TensorFlow, go through this Hello World tutorial https://codelabs.developers.google.com/codelabs/tensorflow-lab1-helloworld/#0
