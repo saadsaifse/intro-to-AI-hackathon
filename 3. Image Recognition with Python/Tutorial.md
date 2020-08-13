@@ -85,14 +85,20 @@ built on top of the Python programming language. It offers data structures and o
 Matplotlib is a Python library to visualize results. Static, animated, and interactive visualizations can be created using Matplotlib.
 Visit https://matplotlib.org/ for more details.
 
-## Classify Cats & Dogs Images 
-
-TODO: 
-
-For a beginners guide about machine learning using TensorFlow, go through this Hello World tutorial https://codelabs.developers.google.com/codelabs/tensorflow-lab1-helloworld/#0
+## Classify Cats & Dogs Images
 
 ### Explore the example data
 
-Cats and Dogs Dataset: https://www.kaggle.com/c/dogs-vs-cats/data
+Cats and dogs dataset: https://www.kaggle.com/c/dogs-vs-cats/data
+
+### Complete the tutorial
 
 Tutorial link: https://colab.research.google.com/drive/1ixqbOLgEw8GLQxBK2RjH8L_cCQAG-96u?usp=sharing
+
+## Tasks
+
+### Watch ML vs DL video 
+This video helps clear why we are using deep learning for image classification https://www.youtube.com/watch?v=-SgkLEuhfbg
+
+### Complete the TensorFlow ML beginners guide
+For a beginners guide about machine learning using TensorFlow, go through this Hello World tutorial https://codelabs.developers.google.com/codelabs/tensorflow-lab1-helloworld/#0
