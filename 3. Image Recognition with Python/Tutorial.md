@@ -6,27 +6,25 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 
 ---
 
+## Overview
 
-## Objectives
+### Objectives
 
 After completing this tutorial, readers will
 
 - Get familiar with tools used for Image Classification
 - Perform a practical ML tutorial to classify cats and dogs images
 
-## Steps
-
-**Total duration:** 40-50 minutes
-
-- Familiarity with Image Classification tools - 10 minutes
-- Perform practical machine learning to classify cats and dogs images - 25 minutes
-- Tasks - 15 minutes 
-
+```
+● Familiarity with Image Classification tools - 10 minutes
+● Perform practical machine learning to classify cats and dogs images - 25 minutes
+● Tasks - 15 minutes 
+```
 ---
 
 ## Image Classification Tools
 
-> This tutorial can be performed without installing any of the mentioned tools on your machine. However, it is encouraged to install and experiment with these tools and run the tutorial on your own machine.
+> This tutorial can be performed without installing any of the mentioned tools on your machine. However, it is encouraged to install and experiment with these tools and run the tutorial on your machine.
 
 There are several tool to perform machine and deep learning, but in this section, a brief introduction is provided to the tools that are used in this tutorial.
 
