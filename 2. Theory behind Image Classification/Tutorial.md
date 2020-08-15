@@ -105,9 +105,10 @@ There are different kinds of Neural Networks. The ones usually used for image re
 
 ## Convolutional Neural Networks (CNN) for Image Classification 
 
-A mentioned previously, a CNN takes just the image’s raw pixel data as input and “learns” how to extract relevant features, and ultimately infers what object they constitute.
+At first, let's watch [this video](https://youtu.be/2JEtEdsLdoo) about convolutional neural networks and cats! 
 
-To start, the CNN receives an input image: a three-dimensional matrix where the size of the first two dimensions corresponds to the length and width of the images counted in pixels. The size of the third dimension is 3 ( = the 3 channels of a color image: red, green, and blue).
+A mentioned previously, a CNN takes just the image’s raw pixel data as input and “learns” how to extract relevant features, and ultimately infers what object they constitute. The input image it receives is a three-dimensional matrix where the size of the first two dimensions corresponds to the length and width of the images counted in pixels. The size of the third dimension is 3 ( = the 3 channels of a color image: red, green, and blue).
+
 
 ### 1. Convolution
 
