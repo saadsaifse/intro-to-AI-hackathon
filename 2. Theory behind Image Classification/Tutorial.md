@@ -6,6 +6,14 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 
 ## Overview
 
+### Objectives
+
+After completing this tutorial, readers will
+
+- Find out what images are for a computer
+- Get an intuitive understanding of Neural Networks
+- See how Convolutional Neural Networks work with images
+
 ```
 ● What is an image and how can we recognize images? 
 ● Machine approaches to image recognition

@@ -6,6 +6,12 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 
 ## Overview
 
+### Objective
+
+After completing this tutorial, readers will
+
+- Get familiar with the basic concepts of AI
+
 ```
 ● What is AI? - 5 minutes
 ● How should we define AI? - 5 minutes
