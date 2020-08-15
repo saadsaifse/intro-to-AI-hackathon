@@ -14,11 +14,13 @@ After completing this tutorial, readers will
 - Get an intuitive understanding of Neural Networks
 - See how Convolutional Neural Networks work with images
 
+Note that this tutorial has no tasks for you to submit, only a few additional videos to watch for a deeper understanding and a Neural Network playground to experiment with as much as you'd like!
+
 ```
-● What is an image and how can we recognize images? 
-● Machine approaches to image recognition
-● What are Neural Networks
-● Convolutional Neural Networks for Image Classification
+● What is an image and how can we recognize images? - 5 minutes
+● Machine approaches to image recognition - 5 minutes
+● What are Neural Networks - 20 minutes
+● Convolutional Neural Networks for Image Classification - 20 minutes
 ```
 
 ---
@@ -106,6 +108,8 @@ error * weight's contribution to error = adjustment
 To compare the guess with the ground truth and optimize the weights, “Gradient descent” is applied. The gradient represents how two or more variables relate to each other: in this case - the relationship between the network’s error and the weights. With the gradient it is possible to see how increasing or decreasing a weight by one step affects the error and then to choose the option that makes the error smaller. This is done recursively for all the weights in the model and in the end the essence of learning in Deep Learning is nothing more than that: adjusting a model’s weights in response to the error it produces, until you can’t reduce the error any more. Going back through the network to adjust the weights is a technique called **backpropagation**.
 
 !["Gradient descent" image](./images/gradient_descent_demystified.png "source: ML Glossary")
+
+To see a Neural Network in action, follow [this link](https://playground.tensorflow.org/) which will lead you to a **playground** where you can experiment with the input data, nodes, layers, activation functions, etc. Let the network learn for a while and be sure to hover over the nodes!
 
 ---
 
