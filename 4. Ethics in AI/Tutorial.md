@@ -48,7 +48,7 @@ TedEd link: https://ed.ted.com/on/ZqB0pyBs
 
 In his article J. Bradley (2020) describes four stages relevant to AI bias; real-world bias, data bias, algorithm bias, and business bias.
 1. **Real-world bias** involves actual bias in real-world situations such as gender bias, name bias, or beauty bias. 
-For example, Name bias is the tendency people have to judge and prefer people with certain types of names — typically names that are of Anglo origin. This may occur when reviewing your future classmates and some names will appear to you as foreign or strange. 
+For example, Name bias is the tendency people have to judge and prefer people with certain types of names. This may occur when reviewing your future classmates and some names will appear to you as foreign or strange. 
 2. **Data bias** happens when the data accurately reflects the real world. If the data is reflective of the real-world it will also reflect the biases that occur in the real world. 
 3. **Algorithm bias**, an algorithm is a set of rules that precisely defines a sequence of operations. These rules are defined by humans and operated by machines, algorithm bias is an outcome of real-world bias that humans have. 
 For example: when a job application filtering tool is trained on decisions made by humans, the machine learning algorithm may learn to discriminate against women or individuals with a certain ethnic background.
