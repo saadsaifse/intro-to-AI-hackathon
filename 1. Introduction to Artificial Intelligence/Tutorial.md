@@ -237,7 +237,7 @@ The same applies to other autonomous systems such as delivery robots, flying dro
 
 ## Tasks
 
-### Answer these 2 questions and send us an e-mail to aihackathon@gmail.com!
+### Answer these 2 questions and send us an e-mail to aihackaton@gmail.com!
 
 1. Choose which of the following are AI and which are not:
     a. Spreadsheet that calculates sums and other pre-defined functions on given data
