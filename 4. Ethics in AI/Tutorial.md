@@ -115,7 +115,7 @@ The job types that have the highest probability of becoming automated mostly do 
 
 Write an essay (minimum 500 words, maximum 800 words) on one of the following topics presented in this tutorial. 
 You can use articles to give examples and support your thoughts. 
-Please send the essay to us via email in PDF with the chosen topic and your name written on the first page.
+Please send the essay to us via email to aihackaton@gmail.com in PDF with the chosen topic and your name written on the first page.
 
 ```
 The topics:
