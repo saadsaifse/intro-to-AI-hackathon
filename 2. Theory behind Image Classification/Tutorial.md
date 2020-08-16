@@ -163,11 +163,10 @@ This is just one example of how a CNN can be structured, but now that we intuiti
 ## References
 
 ```
-● A Beginner's Guide to Neural Networks and Deep Learning -
-https://pathmind.com/wiki/neural-network
 ● Elements of AI, Helsinki University - https://course.elementsofai.com/
-● Intuitively Understanding Convolutions for Deep Learning - https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1
 ● Machine Learning Glossary - https://ml-cheatsheet.readthedocs.io/en/latest/
 ● ML Practicum: Image Classification - https://developers.google.com/machine-learning/practica/image-classification
-● The Scientist and Engineer's Guide to Digital Signal Processing - https://www.dspguide.com/ch6/2.htm
+● Nicholson, C. A Beginner's Guide to Neural Networks and Deep Learning. Retrieved 16 August 2020, from https://wiki.pathmind.com/neural-network
+● Shafkat, I. (2018). Intuitively Understanding Convolutions for Deep Learning. Retrieved 16 August 2020, from https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1
+● Smith, S. (1997). The scientist and engineer's guide to digital signal processing (Chapter 6: Convolution). San Diego, Calif.: California Technical Pub.
 ```
