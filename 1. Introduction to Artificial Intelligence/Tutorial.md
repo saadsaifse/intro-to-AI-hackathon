@@ -257,17 +257,13 @@ The same applies to other autonomous systems such as delivery robots, flying dro
 ## References
 
 ```
+● Computer convinces panel it is human. (2014). Retrieved 16 August 2020, from https://www.bbc.com/news/technology-27762088 Computer AI passes Turing test in 'world first' - https://www.bbc.com/news/technology-27762088
 ● Elements of AI, Helsinki University - https://course.elementsofai.com/
-● What is artificial intelligence? -
-https://www.bbc.com/news/av/technology-34224406/what-is-artificial-intelligence
-● Computer AI passes Turing test in 'world first' - https://www.bbc.com/news/technology-27762088
-● History of AI - https://towardsdatascience.com/history-of-ai-484a86fc16ef
-● AI for Speech Recognition – Current Companies, Technology, and Trends -
-https://emerj.com/ai-sector-overviews/ai-for-speech-recognition/
-● Artificial Intelligence in Medicine -
-https://www.datarevenue.com/en-blog/artificial-intelligence-in-medicine
-● How Artificial Intelligence Might Personalize Healthcare -
-https://www.siemens-healthineers.com/news/mso-column-ai-personalizing-healthcare.html
+● Eremenko, V. (2015). What is artificial intelligence?. Retrieved 8 August 2020, from https://www.bbc.com/news/av/technology-34224406
+● Freiherr, G. (2020). How Artificial Intelligence Might Personalize Healthcare. Retrieved 16 August 2020, from https://www.siemens-healthineers.com/news/mso-column-ai-personalizing-healthcare.html
+● Jesus, A. D. (2019). AI for Speech Recognition - Current Companies, Technology, and Where Its Headed. Retrieved 16 August 2020, from https://emerj.com/ai-sector-overviews/ai-for-speech-recognition/
 ● Pictures for General free use in https://unsplash.com/
+● Ray, S. (2018). History of AI. Retrieved 16 August 2020, from https://towardsdatascience.com/history-of-ai-484a86fc16ef
+● Schmitt, M. Artificial Intelligence in Medicine | The Top 4 Applications. Retrieved 16 August 2020, from https://www.datarevenue.com/en-blog/artificial-intelligence-in-medicine
 ```
 
