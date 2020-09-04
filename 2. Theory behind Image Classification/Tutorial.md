@@ -84,24 +84,24 @@ The output then becomes the next layer's input or, if it's the output layer, is 
 
 So to be able to classify something, we need the following elements: input data, weights, and an activation function. The first element is provided, the last element we choose from the available functions, and to get the weights we need to train the network. To train the network we can provide labels for each item in our training data, or just let the network find some patterns and features automatically, draw connections between them, and distinguish various classes by itself. Training it on labeled data can be more performative, as the network will be comparing its results to the results we want it to achieve and adjusting the weights accordingly. 
 
-The goal of training the network is to have the labels predicted by the network as close to the real labels as possible. In other words, we must minimize the difference between them, also called the error.
+The goal of training the network is *to have the labels predicted by the network as close to the real labels as possible*. In other words, we must minimize the difference between them, also called the error.
 At first, all the weights are initialized randomly. Each next step involves an error measurement and a slight update of the weights, as the network slowly learns from its mistakes and is repeated until the least possible error is achieved. A final collection of weights is then called a **model**.
 
-This can be generalized as follows:
+**This can be generalized as follows:**
 
-Input enters the network. The summary of inputs multiplied by the weights is passed through the activation function and a set of guesses are made.
+- Input enters the network. The summary of inputs multiplied by the weights is passed through the activation function and a set of guesses are made.
 
 ```
 input * weight = guess
 ```
 
-Then the guess is compared to the ground-truth about the data (the labels we provide), effectively asking “Did I get this right?”. This answer to this question is provided by what is called a **cost function**
+- Then the guess is compared to the ground-truth about the data (the labels we provide), effectively asking “Did I get this right?”. This answer to this question is provided by what is called a **cost function**
 
 ```
 ground truth - guess = error
 ```
 
-The difference between the network’s guess and the ground truth is its error. The network measures that error, and walks the error back over its model, adjusting weights to the extent that they contributed to the error. Some details on this will be explained in the following paragraph.
+- The difference between the network’s guess and the ground truth is its error. The network measures that error, and walks the error back over its model, adjusting weights to the extent that they contributed to the error. Some details on this will be explained in the following paragraph.
 
 ```
 error * weight's contribution to error = adjustment
@@ -130,10 +130,10 @@ A mentioned previously, a CNN takes just the image’s raw pixel data as input a
 
 ![convolution-overview](images/convolution-overview.gif)
 
-A convolution is a mathematical way of combining two signals to form a third signal.  The way it combines them is using a **kernel** (a small matrix of weights): it goes over the 2D input data, performing an elementwise multiplication, and then summing up the results into a single output pixel. The result it produces is an output feature map, also called a convolutional layer
+A convolution is a mathematical way of combining two signals to form a third signal.  The way it combines them is using a **kernel** (a small matrix of weights): it goes over the 2D input data, performing an elementwise multiplication, and then summing up the results into a single output pixel. The result it produces is an output feature map, also called a convolutional layer.
 
-On the following image a 3x3 convolution of depth 1 performed over a 5x5 input image, also of depth 1. 
-For each filter-tile pair, the CNN performs element-wise multiplication of the filter matrix and the tile matrix, and then sums all the elements of the resulting matrix to get a single value. Each of these resulting values for every filter-tile pair is then output in the convolved feature matrix (see Figures 4a and 4b).
+On the following image a 3x3 convolution of depth 1 done over a 5x5 input image, also of depth 1. 
+For each filter-tile pair, the CNN performs element-wise multiplication of the filter matrix and the tile matrix, and then sums all the elements of the resulting matrix to get a single value. Each of these resulting values for every filter-tile pair is then output in the convolved feature matrix.
 
 ![conv-feature-filter](images/conv-feature-filter.png)
 
