@@ -11,13 +11,13 @@ Einav Grinberg, Muhammad Saad Saif, Anna Formaniuk
 During this tutorial, readers will explore the current impact of AI in our society as well as future implications.
 
 ```
-● Ethics Definition - 2 minutes
+● Ethics Definition - 1 minute
 ● The ethical dilemma of self-driving cars by Patrick Lin  - 10 minutes
-● AI Bias - 5 minutes
-● Fake AI - 5 minutes
-● Privacy & Surveillance - 8 minutes
-● AI and Employment - 5 minutes
-● Task - 10-15 minutes
+● AI Bias - 4 minutes
+● Fake AI - 6 minutes
+● Privacy & Surveillance - 10 minutes
+● AI and Employment - 4 minutes
+● Task - 15 minutes
 ```
 
 ---
@@ -85,7 +85,7 @@ In China, the belief is that surveillance with Facial Recognition is essential t
 
 <img src="https://media1.s-nbcnews.com/j/newscms/2019_19/2847376/190506-face-recognition-small-crimes-main-kh_af209030008a39ab916bb89809b55c04.fit-2000w.jpg" width="500">
 
-**Read the following articles, and write which approach you would endorse if you were the mayor of the city you currently live in and try to explain why.**
+**Choose and read one of the following articles, and write which approach you would endorse if you were the mayor of the city you currently live in and try to explain why.**
 
 * [One Month, 500,000 Face Scans: How China Is Using A.I. to Profile a Minority](https://www.nytimes.com/2019/04/14/technology/china-surveillance-artificial-intelligence-racial-profiling.html)
 * [How facial recognition became a routine policing tool in America](https://www.nbcnews.com/news/us-news/how-facial-recognition-became-routine-policing-tool-america-n1004251)
@@ -113,8 +113,8 @@ The job types that have the highest probability of becoming automated mostly do 
 
 ## Task - Implications of AI
 
-Write an essay (minimum 500 words, maximum 800 words) on one of the following topics presented in this tutorial. 
-You can use articles to give examples and support your thoughts. 
+Write an essay (minimum 200 words, maximum 400 words) on one of the following topics presented in this tutorial. 
+You can use articles to give examples and support your thoughts (tip - you can use the articles and examples from the tutorial). 
 Please send the essay to us via email to aihackaton@gmail.com in PDF with the chosen topic and your name written on the first page.
 
 ```
